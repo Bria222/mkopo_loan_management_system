@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 18, 2021 at 07:00 PM
--- Server version: 10.3.15-MariaDB
--- PHP Version: 7.2.19
+-- Generation Time: Oct 10, 2022 at 04:08 AM
+-- Server version: 10.4.25-MariaDB
+-- PHP Version: 8.0.23
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -62,7 +61,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fname`, `lname`, `email`, `password`, `contactno`, `posting_date`) VALUES
-(13, 'brian', 'nyachae', 'brian@gmail.com', 'Test@123', '0710889090', '2021-08-09 18:30:00');
+(13, 'brian', 'nyachae', 'brian@gmail.com', 'Test@123', '0710889090', '2021-08-09 18:30:00'),
+(15, 'peter', 'umujp', 'peter@gmail.com', 'Peter@123', '0722345678', '2022-10-10 01:26:53'),
+(16, 'mary', 'muthon', 'muthonimary1616@gmail.com', 'Muthoni@1234', '0714889098', '2022-10-10 02:07:11');
 
 --
 -- Indexes for dumped tables
@@ -94,7 +95,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
