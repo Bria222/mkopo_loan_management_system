@@ -1,8 +1,9 @@
 # mkopo_loan_management_system
+`For admin Panel http://localhost/mkopo_loan_management_system/`
 
 ## usage 
-`
-For admin Panel http://localhost/ADVANCED_SYSTEM/
+
+`For users Panel http://localhost/mkopo_loan_management_system/admin
 
 Credentials for admin panel :
 
