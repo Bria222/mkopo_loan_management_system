@@ -1,5 +1,6 @@
 # mkopo_loan_management_system
-![Screenshot (12)](https://user-images.githubusercontent.com/64264883/194788467-e0436fbf-c828-436d-a554-5b5f4e296f4e.png)
+
+![Screenshot (13)](https://user-images.githubusercontent.com/64264883/194788619-3e04725b-5a9d-4917-bf47-dd49352ecb06.png)
 
 `For admin Panel http://localhost/mkopo_loan_management_system/`
 
