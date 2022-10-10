@@ -7,7 +7,7 @@
         </div>
         <div class="credits">
     
-          Designed by <a href="https://bree.com/">bre</a>
+          Designed by <a href="#">Smart Engineer</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">

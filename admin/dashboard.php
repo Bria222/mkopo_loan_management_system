@@ -98,6 +98,7 @@ if (strlen($_SESSION['adminid']==0)) {
                       
                     </div>
                     <!-- loan users -->
+                    <div class="container">
                     <h1 class="text-center fw-bold">Active Loan applicants</h1>
                     <table id="datatablesSimple" class="table table-striped table-secondary">
                                     <thead>
@@ -134,6 +135,7 @@ if (strlen($_SESSION['adminid']==0)) {
                                       
                                     </tbody>
                                 </table>
+                                </div>
                                 <!-- end of active loan applicantas -->
                 </main>
              <?php include_once('../includes/footer.php'); ?>

@@ -19,7 +19,7 @@ if (strlen($_SESSION['id']==0)) {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
-      <?php include_once('includes/navbar.php');?>
+      <!-- <?php include_once('includes/nav.php');?> -->
         <div id="layoutSidenav">
           <?php include_once('includes/sidebar.php');?>
             <div id="layoutSidenav_content">
@@ -31,12 +31,12 @@ if (strlen($_SESSION['id']==0)) {
                         $query=mysqli_query($con,"select * from users where id='$userid'");
                         while($result=mysqli_fetch_array($query))
                         {?>
-                        <h1 class="mt-4"><?php echo $result['fname'];?>'s Profile</h1>
+                        <h1 class="mt-4 text-center"><?php echo $result['fname'];?>'s Profile</h1>
                         <div class="card mb-4">
                      
                             <div class="card-body">
                                 <a href="edit-profile.php">Edit</a>
-                                <table class="table table-bordered">
+                                <table class="table table-striped table-info">
                                    <tr>
                                     <th>First Name</th>
                                        <td><?php echo $result['fname'];?></td>
