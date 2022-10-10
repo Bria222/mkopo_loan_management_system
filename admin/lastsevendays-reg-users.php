@@ -27,6 +27,7 @@ echo "<script>alert('Data deleted');</script>";
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="../css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     </head>
     <body class="sb-nav-fixed">
@@ -48,7 +49,7 @@ echo "<script>alert('Data deleted');</script>";
                           Registered Users in Last 7 Days  Details
                             </div>
                             <div class="card-body">
-                                <table id="datatablesSimple">
+                                <table id="datatablesSimple" class="table table-striped table-secondary">
                                     <thead>
                                         <tr>
                                              <th>Sno.</th>

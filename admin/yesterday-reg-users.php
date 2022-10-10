@@ -48,7 +48,7 @@ echo "<script>alert('Data deleted');</script>";
                             Yesterday Registered Users Details
                             </div>
                             <div class="card-body">
-                                <table id="datatablesSimple">
+                                <table id="datatablesSimple" class="table table-striped table-secondary">
                                     <thead>
                                         <tr>
                                              <th>Sno.</th>
@@ -60,7 +60,7 @@ echo "<script>alert('Data deleted');</script>";
                                   <th>Action</th>
                                         </tr>
                                     </thead>
-                                    <tfoot>
+                                    <!-- <tfoot>
                                         <tr>
                                              <th>Sno.</th>
                                   <th>First Name</th>
@@ -70,7 +70,7 @@ echo "<script>alert('Data deleted');</script>";
                                   <th>Reg. Date</th>
                                   <th>Action</th>
                                         </tr>
-                                    </tfoot>
+                                    </tfoot> -->
                                     <tbody>
                                               <?php $ret=mysqli_query($con,"select * from users where date(posting_date)=CURRENT_DATE()-1");
                               $cnt=1;
